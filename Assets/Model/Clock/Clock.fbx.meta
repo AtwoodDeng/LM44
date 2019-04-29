@@ -1,0 +1,203 @@
+fileFormatVersion: 2
+guid: 123c4aef1c8eb9b4f81e87c49ba788f5
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: abreszto_mutato
+    100002: //RootNode
+    100004: Cylinder_2
+    100006: Cylinder_3
+    100008: Cylinder_4
+    100010: Cylinder_5
+    100012: Disc
+    100014: Disc_2
+    100016: felhuzo
+    100018: fulek
+    100020: harang
+    100022: harang_2
+    100024: harangok
+    100026: kalapacs
+    100028: kis_mutato
+    100030: labak
+    100032: Lathe_2
+    100034: nagy_mutato
+    100036: Oil_Tank
+    100038: pocok
+    100040: Subdivision_Surface
+    100042: Subdivision_Surface_1
+    100044: Symmetry
+    100046: Symmetry_2
+    100048: szamlap
+    100050: szamlap2
+    100052: tengely
+    100054: test
+    100056: transform1
+    100058: transform10
+    100060: transform11
+    100062: transform12
+    100064: transform13
+    100066: transform14
+    100068: transform15
+    100070: transform16
+    100072: transform17
+    100074: transform18
+    100076: transform2
+    100078: transform3
+    100080: transform4
+    100082: transform5
+    100084: transform6
+    100086: transform7
+    100088: transform8
+    100090: transform9
+    100092: Tube
+    100094: uveg
+    100096: vekker1
+    100098: vekker2
+    400000: abreszto_mutato
+    400002: //RootNode
+    400004: Cylinder_2
+    400006: Cylinder_3
+    400008: Cylinder_4
+    400010: Cylinder_5
+    400012: Disc
+    400014: Disc_2
+    400016: felhuzo
+    400018: fulek
+    400020: harang
+    400022: harang_2
+    400024: harangok
+    400026: kalapacs
+    400028: kis_mutato
+    400030: labak
+    400032: Lathe_2
+    400034: nagy_mutato
+    400036: Oil_Tank
+    400038: pocok
+    400040: Subdivision_Surface
+    400042: Subdivision_Surface_1
+    400044: Symmetry
+    400046: Symmetry_2
+    400048: szamlap
+    400050: szamlap2
+    400052: tengely
+    400054: test
+    400056: transform1
+    400058: transform10
+    400060: transform11
+    400062: transform12
+    400064: transform13
+    400066: transform14
+    400068: transform15
+    400070: transform16
+    400072: transform17
+    400074: transform18
+    400076: transform2
+    400078: transform3
+    400080: transform4
+    400082: transform5
+    400084: transform6
+    400086: transform7
+    400088: transform8
+    400090: transform9
+    400092: Tube
+    400094: uveg
+    400096: vekker1
+    400098: vekker2
+    2100000: Iron
+    2100002: krom.1
+    2100004: Mat
+    2100006: Plastic_Red
+    2100008: Plastic_Black
+    2100010: Plastic_White
+    2300000: vekker2
+    2300002: //RootNode
+    3300000: vekker2
+    3300002: //RootNode
+    4300000: vekker2
+    4300002: vekker3
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
