@@ -16,9 +16,8 @@ namespace AtLib.Gallery
             {
                 if (m_instance == null)
                 {
-#if UNITY_EDITOR
                     m_instance = GameObject.FindObjectOfType<SelectSystemManager>();
-#endif
+
                 }
 
                 return m_instance;

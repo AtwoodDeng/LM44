@@ -15,7 +15,8 @@ GameObject:
   - component: {fileID: 1120440097472557444}
   - component: {fileID: 1120440097472557446}
   - component: {fileID: 1647173946}
-  m_Layer: 0
+  - component: {fileID: 2456609992376437503}
+  m_Layer: 14
   m_Name: Clock
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -225,3 +226,21 @@ MonoBehaviour:
   sound: {fileID: 8300000, guid: b27c0206406f5b7499c10dda56ac02a6, type: 3}
   threshold: 0.2
   multipy: 0.5
+--- !u!114 &2456609992376437503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1120440097472591657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfb9a55e5f9c4a649859ddbe7c726da2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 40
+  hitParticle: {fileID: 842896303088858669, guid: 2acb8aaf9371418448254a6f7e96151b,
+    type: 3}
+  hitInterval: 0.1
+  lastHit: 0
+  dieEvent: 

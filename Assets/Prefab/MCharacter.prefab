@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 549490837}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0.647, y: 0.509, z: 0.498}
+  m_LocalPosition: {x: 0.358, y: 0.77, z: 0.596}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1978769750}
@@ -636,9 +636,10 @@ MonoBehaviour:
   fsm: {fileID: 1978769751}
   weaponPrefab: {fileID: 0}
   weaponRoot: {fileID: 549490838}
-  bulletPrefab: {fileID: 2109083328208179585, guid: 1aff46ff4e6346149adbe0b00bfc8fa9,
-    type: 3}
+  tollerateWeight: 10
+  bulletPrefab: {fileID: 0}
   weapon: {fileID: 0}
+  temWeapon: {fileID: 0}
 --- !u!1 &3255532576645078349
 GameObject:
   m_ObjectHideFlags: 0
@@ -813,10 +814,14 @@ MonoBehaviour:
     BobAmount: 0
   m_StepInterval: 5
   m_FootstepSounds:
-  - {fileID: 8300000, guid: 42e65e088b3f4374e851b8dbd38f3df9, type: 3}
-  - {fileID: 8300000, guid: 8bc94ec6ed537e743b481638bdcd503d, type: 3}
+  - {fileID: 8300000, guid: 4e62ac71d1a319c42b2e51323a8b105d, type: 3}
+  - {fileID: 8300000, guid: b2d65ecfe06888543a92294c9f0107e0, type: 3}
+  - {fileID: 8300000, guid: b4cfb1ff6f388674aa66ab59c8e006fc, type: 3}
+  - {fileID: 8300000, guid: a493def70667e654f89bad78cdfd2bce, type: 3}
+  - {fileID: 8300000, guid: 268f1251af97eda43b62aec89797294a, type: 3}
+  - {fileID: 8300000, guid: 20a10aabaf5dac945b51e0c416409c72, type: 3}
   m_JumpSound: {fileID: 0}
-  m_LandSound: {fileID: 8300000, guid: 3b09d59f4499d45428baa7a21e954296, type: 3}
+  m_LandSound: {fileID: 0}
 --- !u!54 &3255532576650542637
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -943,9 +948,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cullMask:
     serializedVersion: 2
-    m_Bits: 65536
-  maxDistance: 30
-  defaultDistance: 10
+    m_Bits: 81920
+  maxDistance: 10
+  defaultDistance: 5
   defaultProfile: {fileID: 11400000, guid: 53acf84f40623e74ba9e45c5e57e2c95, type: 2}
   m_temFocus: {fileID: 0}
   delayTimer: 0
@@ -1170,4 +1175,6 @@ MonoBehaviour:
   breakBeforeColorGrading: 0
   m_BeforeTransparentBundles: []
   m_BeforeStackBundles: []
-  m_AfterStackBundles: []
+  m_AfterStackBundles:
+  - assemblyQualifiedName: Kino.AnalogGlitchSRP, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null

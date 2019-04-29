@@ -8,6 +8,7 @@ namespace AtLib.Gallery
     public class ActionSelectable : SelectableObject
     {
         public UnityEvent action;
+
         override public void Interact()
         {
             action.Invoke();

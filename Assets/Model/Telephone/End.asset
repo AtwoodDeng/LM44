@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsOverrideTips: 1
   scanTips:
-    eng: Hang Up
-    ch: "\u6302\u6389"
+    eng: E - Hang Up
+    ch: "E - \u6302\u6389"
   senseRange: -1
   type: 0
   delayFocusDuration: 1

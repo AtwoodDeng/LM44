@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsOverrideTips: 1
   scanTips:
-    eng: Answer
-    ch: "\u63A5\u7535\u8BDD"
+    eng: E - Answer
+    ch: "E - \u63A5\u7535\u8BDD"
   senseRange: -1
   type: 0
   delayFocusDuration: 1

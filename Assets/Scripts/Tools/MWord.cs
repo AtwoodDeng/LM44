@@ -18,7 +18,7 @@ namespace AtLib.Gallery
             English,
         }
 
-        public static Language language = Language.Chinese;
+        public static Language language = Language.English;
 
         public string value
         {

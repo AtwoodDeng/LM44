@@ -5,7 +5,7 @@ using UnityEngine;
 public class Bullet : Hitter
 {
 
-    public float speed;
+    public float speed = 20f;
     public Rigidbody rigidbody;
     
     public void Update()
@@ -20,6 +20,16 @@ public class Bullet : Hitter
         transform.forward = - root.right;
 
         rigidbody.velocity = -root.right * speed;
+    }
+
+    public void ShootNew(Transform origianlWeapon)
+    {
+        transform.position = origianlWeapon.transform.position;
+
+        transform.forward = origianlWeapon.transform.forward;
+
+        rigidbody.velocity = -origianlWeapon.transform.forward * speed;
+
     }
 
     private void OnCollisionEnter(Collision other)
