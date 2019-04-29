@@ -1,27 +1,19 @@
 fileFormatVersion: 2
-guid: 1242b2ee014993e4c81d4d6dc4f5f055
+guid: 45715c72ffe355049bebe164eedee285
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: Base
-    100002: //RootNode
-    100004: Monitor 1
-    100006: Screen
-    400000: Base
-    400002: //RootNode
-    400004: Monitor 1
-    400006: Screen
-    2100000: Monitor
-    2100002: Screen
-    2300000: Base
-    2300002: Monitor 1
-    2300004: Screen
-    3300000: Base
-    3300002: Monitor 1
-    3300004: Screen
-    4300000: Monitor
-    4300002: Screen
-    4300004: Base
+    100000: //RootNode
+    400000: //RootNode
+    2100000: FLAT
+    2100002: BUMP
+    2100004: METAL8FACE
+    2100006: Pill_Bottle_CapsuleMat
+    2100008: Pill_Bottle_CapsuleTop
+    2100010: Pill_Bottle_Trans
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: Pill_Bottle:Circle06
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -53,7 +45,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1.45
+    globalScale: 0.1
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
